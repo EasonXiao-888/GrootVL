@@ -1,4 +1,4 @@
-# GrootVL
+# GrootVL: Tree Topology is All You Need in State Space Model
 [Yicheng Xiao<sup><span>1,*</span></sup>](https://easonxiao-888.github.io/), [Lin Song<sup><span>2,📧,*</span></sup>](https://github.com/StevenGrove), [Shaoli Huang<sup>2</sup>](https://scholar.google.com/citations?user=o31BPFsAAAAJ&hl=en&oi=ao), [Jiangshan Wang<sup><span>1</span></sup>](https://scholar.google.com/citations?hl=en&user=HoKoCv0AAAAJ), [Siyu Song<sup><span>3</span></sup>](), [Yixiao Ge<sup><span>2</span></sup>](http://geyixiao.com/), [Xiu Li<sup><span>1,📧</span></sup>](https://www.sigs.tsinghua.edu.cn/lx/main.htm) and [Ying Shan<sup><span>2</span></sup>](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en)
 
 \* Equal contribution  📧 Corresponding author
