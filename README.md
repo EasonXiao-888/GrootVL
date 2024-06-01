@@ -72,7 +72,7 @@ The state space models, employing recursively propagated features, demonstrate s
 |      Method      |   PIQA &uarr;  | Arc-E &uarr; | sst &uarr; | WinoGrande &uarr; | LAMBADA-ppl &darr; |  race &uarr; | Openbookqa &uarr; | Average Acc &uarr; | download |
 | :------------: | :----------: | :--------: | :---: | :----: | :---: | :---: | :---: | :---: |:---------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Mamba  | 64.5  |  48.0   | 65.6  |  51.8   |  16.1  | 27.4 | 16.8 | 45/7 | [model]() |
-| + LoRA | 64.7 | 48.3 | 65.1 | 52.2 | 17.7 | 28.6 | 17.8 | 46.1| [model]() |
-| + GrootL  | 65.0 | 49.8 | 69.5 | 51.1 | 15.9 | 28.9 | 19.2 | 47.2| [model]() |
+| +LoRA | 64.7 | 48.3 | 65.1 | 52.2 | 17.7 | 28.6 | 17.8 | 46.1| [model]() |
+| +GrootL | 65.0 | 49.8 | 69.5 | 51.1 | 15.9 | 28.9 | 19.2 | 47.2| [model]() |
 </div>
 </details>
