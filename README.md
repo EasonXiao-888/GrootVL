@@ -14,7 +14,7 @@ The state space models, employing recursively propagated features, demonstrate s
  <img src="assets/tree_ssm.png" width="100%">
 </p>
 
-## 🔨 Model Zoo
+## 🛠️ Model Zoo
 
 #### Vision Tasks
 <details>
