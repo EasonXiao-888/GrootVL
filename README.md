@@ -116,9 +116,9 @@ pip install -v -e .
 <summary> ImageNet-1k Image Classification </summary>
 <br>
 
-    `bash GrootV/scripts/bash_cls_train.sh`
+`bash GrootV/scripts/bash_cls_train.sh`
 
-    You need to modify the relevant path to your own.  
+You need to modify the relevant path to your own.  
 </details>
 
 ## ❤️ Acknowledgement
