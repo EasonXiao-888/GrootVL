@@ -14,7 +14,41 @@ The state space models, employing recursively propagated features, demonstrate s
  <img src="assets/tree_ssm.png" width="100%">
 </p>
 
-## 🛠️ Model Zoo
+## 🛠️ Environment Setup 
+
+#### Vision Tasks
+```txt
+conda create -n grootv python=3.9
+conda activate grootv
+
+# Install pytorch 
+pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
+
+# Install other packages
+pip install -r GrootV/grootv_requirements.txt 
+
+# Install Vision_Tree_Scanning
+cd GrootV/third-party/TreeScan
+pip install -v -e .
+
+```
+#### Language Tasks
+```txt
+conda create -n grootl python=3.9
+conda activate grootl
+
+# Install pytorch 
+pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
+
+# Install other packages
+pip install -r GrootL/grootl_requirements.txt 
+
+# Install Language_Tree_Scanning
+cd GrootL/third-party/TreeScanLan
+pip install -v -e .
+```
+
+## 🍺 Model Zoo
 
 #### Vision Tasks
 <details>
@@ -25,9 +59,9 @@ The state space models, employing recursively propagated features, demonstrate s
 
 |      name      |   pretrain   | resolution | acc@1 | #param | FLOPs |                                                                             download                                                                              |
 | :------------: | :----------: | :--------: | :---: | :----: | :---: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| GrootV-T  | ImageNet-1K  |  224x224   | 83.4  |  30M   |  4.8G   |       [ckpt]() \| [cfg]()       |
-| GrootV-S  | ImageNet-1K  |  224x224   | 84.2  |  51M   |  8.5G   |       [ckpt]() \| [cfg]()       |
-| GrootV-B  | ImageNet-1K  |  224x224   | 84.8  |  91M   |  15.1G  |       [ckpt]() \| [cfg]()       |
+| GrootV-T  | ImageNet-1K  |  224x224   | 83.4  |  30M   |  4.8G   |       [ckpt](https://drive.google.com/file/d/1OIiMBxk92WhPssRg0pv0U5y8ZBtHq2eQ/view?usp=drive_link) \| [cfg](GrootV/classification/config/grootv_t_1k_224.yaml)       |
+| GrootV-S  | ImageNet-1K  |  224x224   | 84.2  |  51M   |  8.5G   |       [ckpt]() \| [cfg](GrootV/classification/config/grootv_s_1k_224.yaml)       |
+| GrootV-B  | ImageNet-1K  |  224x224   | 84.8  |  91M   |  15.1G  |       [ckpt]() \| [cfg](GrootV/classification/config/grootv_b_1k_224.yaml)       |
 | GrootV-L  | ImageNet-22K |  384x384   | RUNNING  |  -  | -  |  [ckpt]() \| [cfg]()  |
 </div>
 

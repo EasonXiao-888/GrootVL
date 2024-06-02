@@ -1,0 +1,16 @@
+DATA:
+  IMG_ON_MEMORY: False
+MODEL:
+  TYPE: grootv
+  DROP_PATH_RATE: 0.1
+  GROOTV:
+    DEPTHS: [2, 2, 9, 2]
+    GROUPS: [4, 8, 16, 32]
+    CHANNELS: 80
+    OFFSET_SCALE: 1.0
+    MLP_RATIO: 4.0
+TRAIN:
+  EMA:
+    ENABLE: True
+    DECAY: 0.9999
+
