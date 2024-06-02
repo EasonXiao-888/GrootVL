@@ -60,8 +60,8 @@ pip install -v -e .
 |      name      |   pretrain   | resolution | acc@1 | #param | FLOPs |                                                                             download                                                                              |
 | :------------: | :----------: | :--------: | :---: | :----: | :---: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | GrootV-T  | ImageNet-1K  |  224x224   | 83.4  |  30M   |  4.8G   |       [ckpt](https://drive.google.com/file/d/1OIiMBxk92WhPssRg0pv0U5y8ZBtHq2eQ/view?usp=drive_link) \| [cfg](GrootV/classification/config/grootv_t_1k_224.yaml)       |
-| GrootV-S  | ImageNet-1K  |  224x224   | 84.2  |  51M   |  8.5G   |       [ckpt]() \| [cfg](GrootV/classification/config/grootv_s_1k_224.yaml)       |
-| GrootV-B  | ImageNet-1K  |  224x224   | 84.8  |  91M   |  15.1G  |       [ckpt]() \| [cfg](GrootV/classification/config/grootv_b_1k_224.yaml)       |
+| GrootV-S  | ImageNet-1K  |  224x224   | 84.2  |  51M   |  8.5G   |       [ckpt](https://drive.google.com/file/d/1G6DdEI3JDSltfbmZmcqz79rxM1t01K_8/view?usp=drive_link) \| [cfg](GrootV/classification/config/grootv_s_1k_224.yaml)       |
+| GrootV-B  | ImageNet-1K  |  224x224   | 84.8  |  91M   |  15.1G  |       [ckpt](https://drive.google.com/file/d/1-8rwMVinj_fV9YMlzx6fGwdjxyLcjd3w/view?usp=drive_link) \| [cfg](GrootV/classification/config/grootv_b_1k_224.yaml)       |
 | GrootV-L  | ImageNet-22K |  384x384   | RUNNING  |  -  | -  |  [ckpt]() \| [cfg]()  |
 </div>
 
