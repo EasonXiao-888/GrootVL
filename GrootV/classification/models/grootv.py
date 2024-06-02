@@ -199,9 +199,6 @@ class GrootVLayer(nn.Module):
                 conv_bias=False,
                 # ==========================
                 dropout=0.0,
-                initialize="v0",
-                # ==========================
-                forward_type="v2",
             )
         self.drop_path = DropPath(drop_path) if drop_path > 0. \
             else nn.Identity()

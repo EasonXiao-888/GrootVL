@@ -167,10 +167,6 @@ class Tree_SSM(nn.Module):
         dt_init="random",
         dt_scale=1.0,
         dt_init_floor=1e-4,
-        initialize="v0",
-        # ======================
-        forward_type="v2",
-        # ======================
         **kwargs,
     ):
         """
@@ -188,7 +184,7 @@ class Tree_SSM(nn.Module):
         self.h_norm = nn.LayerNorm(d_inner)
 
         self.K = 1
-        self.K2 = self.K if forward_type not in ["share_a"] else 1
+        self.K2 = self.K
 
         # in proj =======================================
         d_proj = d_expand * 2

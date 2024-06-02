@@ -110,3 +110,19 @@ pip install -v -e .
 | +GrootL | 65.0 | 49.8 | 69.5 | 51.1 | 15.9 | 28.9 | 19.2 | 47.2| [model]() |
 </div>
 </details>
+
+## 🚀 Train & Evaluate
+<details>
+<summary> ImageNet-1k Image Classification </summary>
+<br>
+
+    `bash GrootV/scripts/bash_cls_train.sh`
+
+    You need to modify the relevant path to your own.  
+</details>
+
+## ❤️ Acknowledgement
+Code in this repository is built upon several public repositories. Thanks for the wonderful work [InternImage](https://github.com/OpenGVLab/InternImage/tree/master) and [VMamba](https://github.com/MzeroMiko/VMamba) ! !
+
+## ☑️ LICENSE
+Our codes are under [MIT](https://opensource.org/license/MIT) license.
