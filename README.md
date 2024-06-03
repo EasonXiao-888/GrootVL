@@ -20,10 +20,10 @@ we first revisit the selective state space model and design an input-aware topol
 ## ⛲ Efficient Implementation for Multi-Modality
 we utilize a dynamic programming procedure to accelerate the inference and training processes which results in linear complexity $O(L)$ instead of $O(L^2)$.
 <p align="center">
- <img src="assets/vis_tree_scanning.png" width="100%">
+ <img src="assets/vis_tree_scanning.png" width="80%">
 </p>
 <p align="center">
- <img src="assets/lan_tree_scanning.png" width="100%">
+ <img src="assets/lan_tree_scanning.png" width="80%">
 </p>
 
 ## 🛠️ Environment Setup 
