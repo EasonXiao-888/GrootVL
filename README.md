@@ -57,6 +57,10 @@ pip install -r GrootL/grootl_requirements.txt
 # Install Language_Tree_Scanning
 cd GrootL/third-party/TreeScanLan
 pip install -v -e .
+
+# Install language model evluation tools
+cd GrootL/3rdparty/lm-evaluation-harness
+pip install -ev -e .
 ```
 
 ## 🍺 Model Zoo
@@ -85,10 +89,10 @@ pip install -v -e .
 
 |    backbone    |   method   | schedule  | box mAP | mask mAP | #param | FLOPs |                                                                                     download                                                                                      |
 | :------------: | :--------: | :---: | :-----: | :------: | :----: | :---: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| GrootV-T  | Mask R-CNN |  1x   |  47.0   |   42.7   |  49M   | 265G  | [ckpt]() \| [cfg]() |
-| GrootV-T  | Mask R-CNN |  3x   |  49.0   |   43.8   |  49M   | 265G  | [ckpt]() \| [cfg]() |
-| GrootV-S  | Mask R-CNN |  1x   |  48.6   |   43.6   |  70M   | 341G  | [ckpt]() \| [cfg]() |
-| GrootV-S  | Mask R-CNN |  3x   |  50.1   |   44.6   |  70M   | 341G  | [ckpt]() \| [cfg]() |
+| GrootV-T  | Mask R-CNN |  1x   |  47.0   |   42.7   |  49M   | 265G  | - \| [cfg]() |
+| GrootV-T  | Mask R-CNN |  3x   |  49.0   |   43.8   |  49M   | 265G  | - \| [cfg]() |
+| GrootV-S  | Mask R-CNN |  1x   |  48.6   |   43.6   |  70M   | 341G  | - \| [cfg]() |
+| GrootV-S  | Mask R-CNN |  3x   |  50.1   |   44.6   |  70M   | 341G  | - \| [cfg]() |
 
 </div>
 
@@ -101,8 +105,8 @@ pip install -v -e .
 
 |    backbone    |   method    | resolution | mIoU (ss/ms) | #param | FLOPs |                                                                                           download                                                                                           |
 | :------------: | :---------: | :--------: | :----------: | :----: | :---: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| GrootV-T  |   UperNet   |  512x512   | 48.5 / 49.4  |  60M   | 941G  |  [ckpt]() \| [cfg]()  |
-| GrootV-S  |   UperNet   |  512x512   | 50.7 / 51.7  |  82M   | 1019G |  [ckpt]() \| [cfg]()  |
+| GrootV-T  |   UperNet   |  512x512   | 48.5 / 49.4  |  60M   | 941G  |  - \| [cfg]()  |
+| GrootV-S  |   UperNet   |  512x512   | 50.7 / 51.7  |  82M   | 1019G |  - \| [cfg]()  |
 </div>
 </details>
 
@@ -116,9 +120,9 @@ pip install -v -e .
 
 |      Method      |   PIQA &uarr;  | Arc-E &uarr; | sst &uarr; | WinoGrande &uarr; | LAMBADA-ppl &darr; |  race &uarr; | Openbookqa &uarr; | Average Acc &uarr; | download |
 | :------------: | :----------: | :--------: | :---: | :----: | :---: | :---: | :---: | :---: |:---------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Mamba  | 64.5  |  48.0   | 65.6  |  51.8   |  16.1  | 27.4 | 16.8 | 45/7 | [model]() |
-| +LoRA | 64.7 | 48.3 | 65.1 | 52.2 | 17.7 | 28.6 | 17.8 | 46.1| [model]() |
-| +GrootL | 65.0 | 49.8 | 69.5 | 51.1 | 15.9 | 28.9 | 19.2 | 47.2| [model]() |
+| Mamba  | 64.5  |  48.0   | 65.6  |  51.8   |  16.1  | 27.4 | 16.8 | 45/7 | [model](https://huggingface.co/state-spaces/mamba-130m-hf) |
+| +LoRA | 64.7 | 48.3 | 65.1 | 52.2 | 17.7 | 28.6 | 17.8 | 46.1| - |
+| +GrootL | 65.0 | 49.8 | 69.5 | 51.1 | 15.9 | 28.9 | 19.2 | 47.2| [model](https://drive.google.com/file/d/1oby7sHYUxg4TIqFjIXSk8GB98fa9kSBm/view?usp=drive_link) |
 </div>
 </details>
 
@@ -128,6 +132,16 @@ pip install -v -e .
 <br>
 
 `bash GrootV/scripts/bash_cls_train.sh`
+
+You need to modify the relevant path to your own.  
+</details>
+
+<details>
+<summary> Language Understanding </summary>
+<br>
+
+    cd GrootL
+    bash eval.sh
 
 You need to modify the relevant path to your own.  
 </details>
