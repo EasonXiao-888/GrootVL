@@ -10,7 +10,7 @@ The state space models, employing recursively propagated features, demonstrate s
 
 ---
 ## ⚓ Tree State Space Model with Tree Scanning Algorithm
-we first revisit the selective state space model and design an input-aware topology scanning algorithm for state space modeling. With this superior algorithm, we develop a tree SSM and propose a novel framework called GrootVL, which consists of two sub-networks: GrootV for visual tasks and GrootL for fine-tuning a pre-trained language model.
+We first revisit the selective state space model and design an input-aware topology scanning algorithm for state space modeling. With this superior algorithm, we develop a tree SSM and propose a novel framework called GrootVL, which consists of two sub-networks: GrootV for visual tasks and GrootL for fine-tuning a pre-trained language model.
 
 <p align="center">
  <img src="assets/tree_ssm.png" width="100%">
@@ -18,7 +18,7 @@ we first revisit the selective state space model and design an input-aware topol
 
 ---
 ## ⛲ Efficient Implementation for Multi-Modality
-we utilize a dynamic programming procedure to accelerate the inference and training processes which results in linear complexity $O(L)$ instead of $O(L^2)$.
+We utilize a dynamic programming procedure to accelerate the inference and training processes which results in linear complexity $O(L)$ instead of $O(L^2)$.
 <p align="center">
  <img src="assets/vis_tree_scanning.png" width="80%">
 </p>
