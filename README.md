@@ -148,6 +148,17 @@ You need to modify the relevant path to your own.
 You need to modify the relevant path to your own.  
 </details>
 
+## ⭐️ BibTeX
+If you find this work useful for your research, please cite:
+```
+@article{xiao2024grootvl,
+  title={GrootVL: Tree Topology is All You Need in State Space Model},
+  author={Xiao, Yicheng and Song, Lin and Huang, Shaoli and Wang, Jiangshan and Song, Siyu and Ge, Yixiao and Li, Xiu and Shan, Ying},
+  journal={arXiv preprint arXiv:2406.02395},
+  year={2024}
+}
+```
+
 ## ❤️ Acknowledgement
 Code in this repository is built upon several public repositories. Thanks for the wonderful work [InternImage](https://github.com/OpenGVLab/InternImage/tree/master) and [VMamba](https://github.com/MzeroMiko/VMamba) ! !
 
