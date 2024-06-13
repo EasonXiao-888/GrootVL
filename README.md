@@ -62,7 +62,7 @@ pip install -v -e .
 
 # Install language model evluation tools
 cd GrootL/3rdparty/lm-evaluation-harness
-pip install -ev -e .
+pip install -v -e .
 ```
 
 ## 🍺 Model Zoo
